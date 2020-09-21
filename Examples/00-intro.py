@@ -4,11 +4,13 @@
 This file teaches:
 	-What a variable is
 	-What data types are
-	-basic user input and output
+	-basic user input (Objective 1) and output (Objective 2)
 	
 """
 
-#Variables and DataTypes
+
+
+##Variables and DataTypes
 """
 
 #Assigns a value to a variable
@@ -37,24 +39,43 @@ myFloat
 am_i_hungry = True
 
 
-#Basic input and output (aka I/O)
+
+
+##Basic input and output (aka I/O)
+
+
+##Objective 1
+
+#You can output information to the screen through the use of the built-in function 'print()', as shown below:
+
+print("Hello world")
+
+#There will also be times in your programs when you want to capture information from the user. You can do this using another built-in function: input(). This function prompts for input from the user, and the data that is entered can be assigned to a variable for later usage, as shown below (as per the interactive interpreter):
 
 """
-You can output information to the screen through the use of the built-in function 'print()', as shown below:
-    print("Hello world")
-
-There will also be times in your programs when you want to capture information from the user. You can do this using another built-in function: input(). This function prompts for input from the user, and the data that is entered can be assigned to a variable for later usage, as shown below (as per the interactive interpreter):
-
 >>> reply=input("Enter your name: ")
 Enter your name: Fred
 >>> reply
 'Fred'
-
-If you need to use the input recieved as something other than a string, you can use several built-in functions to convert the string returned by 'input()':
-
-'int()' converts a string (or float) value into an integer number. For example, the following converts the input recieved into an integer and stores that integer in the number variable:
-    number = int(input("Please enter the number of T-shirts you require:"))
-
-similarly, 'float()' Converts a string or integer into a float and 'str()' converts a number into a string
 """
-    
+#Exercises: see #Objective-01.py for tasks
+#Solutions: see "Objective 01 - ASCII art problem.py" and "Objective 01 - Visual dice problem.py" for solutions
+
+
+
+##Objective 2
+
+#If you need to use the input recieved as something other than a string, you can use several built-in functions to convert the string returned by 'input()':
+
+#   -'int()' converts a string (or float) value into an integer number. For example, the following converts the input recieved into an integer and stores that integer in the number variable:
+number_int = int(input("Please enter the number of T-shirts you require:"))
+print(number) # this will print the number you entered at the prompt
+
+
+#   -similarly, 'float()' Converts a string or integer into a float and 'str()' converts a number into a string. 
+#For example:
+number_float = float(input("please enter Pi to 2 decimal places: "))
+print(number_float)
+
+#Exercises: see #Objective-02.py for tasks
+#Solutions: see "Objective 01 - ASCII art problem.py" and "Objective 01 - Visual dice problem.py" for solutions
