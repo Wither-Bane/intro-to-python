@@ -5,7 +5,7 @@
 
 ##[EASY] Simple adder
 #write a program that asks the user for two numbers, adds them together and outputs the result. 
-#For example, if a user enters 5 and 12, the program will output 12
+#For example, if a user enters 5 and 12, the program will output 17
 
 #PUT CODE BELOW HERE:
 
