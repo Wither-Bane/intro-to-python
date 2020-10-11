@@ -78,4 +78,7 @@ number_float = float(input("please enter Pi to 2 decimal places: "))
 print(number_float)
 
 #Exercises: see #Objective-02.py for tasks
-#Solutions: see "Objective 01 - ASCII art problem.py" and "Objective 01 - Visual dice problem.py" for solutions
+#Solutions: see relevant .py files for relevant solutions
+
+
+input("\n\nPress enter to exit")
