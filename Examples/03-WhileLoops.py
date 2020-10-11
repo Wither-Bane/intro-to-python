@@ -53,4 +53,8 @@ while True:
     
     counter = counter + 1
 
+
+#Exercises: see #Objective-05.py for tasks
+#Solutions: see relevant .py files for relevant solutions
+
 input("\n\nPress enter to exit")

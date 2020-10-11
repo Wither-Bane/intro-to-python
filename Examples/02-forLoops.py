@@ -20,3 +20,6 @@ for i in range(6):
     print("KFC loves Tango, and I love KFC")
     
 input("\n\nPress enter to exit")
+
+#Exercises: see #Objective-04.py for tasks
+#Solutions: see relevant .py files for relevant solutions
