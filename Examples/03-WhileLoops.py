@@ -32,16 +32,25 @@ while answer != "Y":
 
 #For example
 
+"""
 while True:
     print(" I love CANDY!!!")
     
+"""
     
 #To be able to use these loops, one usually includes a 'break' statement to allow for the exiting of the loop, as shown below:
 
+
+counter=0 
+
 while True:
 
-    if count = 5:
+    if counter == 5:
         print(" I love CANDY!!!")
     else:
         print("i'm bored of candy now")
         break
+    
+    counter = counter + 1
+
+input("\n\nPress enter to exit")

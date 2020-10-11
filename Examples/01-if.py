@@ -19,6 +19,8 @@ if <expression>:
 """
 #Notice the ":" symbol. This defines the start of a "code block". Everything that follows is indented and ONLY runs if the expression in the IF statement is True
 #An example of the IF statement:
+colour = input("enter a traffic light colour: ")
+
 if colour == "green":
     print("It is safe for you to cross.")
 
@@ -35,6 +37,9 @@ else:
 """
 
 #For example, some runnable code might be:
+
+colour = input("enter an invalid traffic light colour: ")
+
 if colour == "green":
     print("It is safe for your to cross.")
 else:
@@ -60,6 +65,10 @@ else:
 """
 
 #For example:
+
+colour = input("enter a different traffic light colour (like 'flashing green', instead of 'green'): ")
+
+
 if colour == "green":
     print("It is safe for your to cross.")
 elif colour == "flashing green":
@@ -103,3 +112,4 @@ Less than or equal to       <=          2 <= 109            True
 #OR     Returns true if one of the conditions is true.
 #NOT    Reverses the outcome of the expression; true becomes false, false becomes true.
 
+input("\n\nPress enter to exit")

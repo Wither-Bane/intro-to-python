@@ -19,3 +19,4 @@ for variable in <expression>:
 for i in range(6):
     print("KFC loves Tango, and I love KFC")
     
+input("\n\nPress enter to exit")
