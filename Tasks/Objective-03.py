@@ -29,5 +29,62 @@
 
 
 
+##[EASY] Extended visual dice challenge
+#Write a program that asks for a number and outputs that number as a graphical dice. E.g.
+
+#oooooooooooo
+#o          o
+#o #        o
+#o    #     o
+#o       #  o
+#o          o
+#oooooooooooo
+
+#PUT CODE BELOW HERE:
+
+
+
+
+##[MEDIUM] Nitrate Challenge
+#When keeping fish, one of the goals to reduce algae is to keep nitrates to a minimum. One way of doing this is to dose a carbon source which nitrifying bacteria within an aquarium consume together with nitrates. The carbon source has to be dosed very precisely. Write this program (see page 22 of this document: https://tinyurl.com/00nitrate00) to determine the dose.
+
+#PUT CODE BELOW HERE:
+
+
+
+
+##[HARD] Portfolio grade challenge 
+#Write a program that inputs a mark from the keyboard for sections of a project: ‘analysis’, ‘design’, ‘implementation’ and ‘evaluation’.  The program should output the total mark, the grade, and how many more marks were needed to get into the next mark band. 
+
+#Grades are: 
+
+#<2U 
+#21 
+#42 
+#133 
+#224 
+#315 
+#416 
+#547 
+#678 
+#809 
+
+#PUT CODE BELOW HERE:
+
+
+##[HARD] Periodic table challenge
+#Write a program that asks the user to enter the symbol or name of an element, or group it belongs to.  The program should output the name of the element and its atomic weight.  
+
+#E.g. The user enters Li.  The program outputs: 
+
+#Element: Lithium (Li) 
+#Atomic weight: 6.94 
+#Group: Alkali metals 
+
+#If the user enters Alkali metals, the program outputs the data for all the elements in the alkali metals group. 
+#You only need to get this working for 6 elements from two different groups. 
+
+#PUT CODE BELOW HERE:
+
 
 
